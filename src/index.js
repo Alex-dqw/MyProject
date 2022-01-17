@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = (props) => {
-  return <>
-    <p>Hello, {props.name}</p>
-  </>;
+const App = ({name}) => {
+   return <div>
+       <p>Hello, {name}.</p>
+  </div>;
 };
 
 ReactDOM.render(
